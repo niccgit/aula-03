@@ -15,9 +15,7 @@ while (contador <= qtd_de_vezes):
     contador += 1
 
 
-# Pseudocódigo (Visualg)
-#
-# algoritmo "tabuada"
+# algoritmo "Tabuada"
 # var
 #   numero, qtd_de_vezes, contador, resultado: inteiro
 # inicio
