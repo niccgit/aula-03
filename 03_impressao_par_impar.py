@@ -14,12 +14,12 @@ tipo_de_numero = input("Digite que tipo de número você gostaria (Pares ou Ímp
 while tipo_de_numero not in opcoes_tipo_de_numero:
     tipo_de_numero = input("Resposta inválida! Responda somente com 'Pares' ou 'Ímpares'").lower()
 
-
 qtd_de_vezes = int(input("Digite a quantidade de vezes que esse número deverá ser impresso: "))
 
 
 numero = 1
 contador = 0
+
 
 while contador < qtd_de_vezes:
     if (tipo_de_numero == "pares" and numero % 2 == 0) or (tipo_de_numero == "ímpares" and numero % 2 != 0):
@@ -28,8 +28,6 @@ while contador < qtd_de_vezes:
     numero += 1
 
 
-# Pseudocódigo (Visualg)
-#
 # algoritmo "impressão de números"
 # var
 #   tipo_de_numero: caractere
